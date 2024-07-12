@@ -2,6 +2,10 @@
 
 A Flutter quiz app with user authentication, leveraging the Open Trivia DB API to fetch questions, and using Firebase for storing user data, managing leaderboards, and tracking quiz statistics.
 
+## Download the APK for Testing
+
+You can download the APK file for testing from the Releases section of this repository or can download directly from this link: [Download APK](https://github.com/abhaypanwar00/QuizQuest/releases/download/v1.0.0/QuizQuest.apk)
+
 ## Screenshots
 
 ### Authentication Screens
@@ -38,13 +42,13 @@ A Flutter quiz app with user authentication, leveraging the Open Trivia DB API t
 
 The Quiz App includes the following features:
 
-  1. **User Authentication:** Features comprehensive user authentication, including sign-in, sign-up, password reset, and email verification.
+  - **User Authentication:** Features comprehensive user authentication, including sign-in, sign-up, password reset, and email verification.
 
-  2. **Quiz Questions:** Utilizes the Open Trivia DB API to fetch quiz questions, ensuring a diverse pool across multiple categories and difficulty levels.
+  - **Quiz Questions:** Utilizes the Open Trivia DB API to fetch quiz questions, ensuring a diverse pool across multiple categories and difficulty levels.
 
-  3. **Firebase Integration:** Stores user data, quiz results, and leaderboard information in Firebase, ensuring real-time updates and secure data management.
+  - **Firebase Integration:** Stores user data, quiz results, and leaderboard information in Firebase, ensuring real-time updates and secure data management.
 
-  4. **Leaderboards and Statistics:** Maintains leaderboards to track top performers. Provides users with detailed statistics on their quiz performances, allowing them to monitor progress over time.
+  - **Leaderboards and Statistics:** Maintains leaderboards to track top performers. Provides users with detailed statistics on their quiz performances, allowing them to monitor progress over time.
 
 
 ## How to Clone QuizQuest!
@@ -109,4 +113,4 @@ To set up Google Sign-In in ios, you need to configure your `Info.plist` file.
            </array>
        </dict>
    </array>
-
+   
