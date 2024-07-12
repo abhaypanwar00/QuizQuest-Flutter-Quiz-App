@@ -86,3 +86,27 @@ To run this project, you need to set up your own Firebase configuration. Follow 
    flutter run
 
 **NOTE:** You can also use the Firebase CLI for managing your Firebase project. For more details, check out the [Firebase Cli Documentation](https://firebase.google.com/docs/flutter/setup?platform=ios)
+
+## Setting Up Your Development Environment
+
+To set up Google Sign-In in ios, you need to configure your `Info.plist` file.
+
+1. Open the `ios/Runner/Info.plist` file in your code editor.
+
+2. Replace your actual `CLIENT_ID` and `REVERSED_CLIENT_ID` in `Info.plist` from your `GoogleService-Info.plist`:
+
+   ```xml
+   <key>GIDClientID</key>
+   <string>CLIENT_ID</string>
+   <key>CFBundleURLTypes</key>
+   <array>
+       <dict>
+           <key>CFBundleTypeRole</key>
+           <string>Editor</string>
+           <key>CFBundleURLSchemes</key>
+           <array>
+               <string>REVERSED_CLIENT_ID</string>
+           </array>
+       </dict>
+   </array>
+
